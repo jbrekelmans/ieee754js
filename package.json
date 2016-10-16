@@ -1,0 +1,40 @@
+{
+  "name": "ieee754js",
+  "version": "0.1.0",
+  "description": "Utilities for splitting a IEEE754 binary-64 floating point number (e.g. JavaScript numbers) into its exponent and mantissa",
+  "main": "./build/ieee754",
+  "typings": "./build/ieee754",
+  "scripts": {
+    "test": "tsc && ./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "files": [
+    "build/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbrekelmans/ieee754.git"
+  },
+  "keywords": [
+    "utilities",
+    "fast",
+    "small"
+  ],
+  "author": "Jasper Brekelmans <jasperbrekelmans@gmail.com> (jasperbrekelmans.com)",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jbrekelmans/ieee754/blob/master/LISCENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/jbrekelmans/ieee754/issues"
+  },
+  "homepage": "https://github.com/jbrekelmans/ieee754#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "esbasejs": "^0.1.8"
+  }
+}
