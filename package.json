@@ -7,6 +7,7 @@
   "scripts": {
     "test": "tsc && ./node_modules/mocha/bin/mocha --require source-map-support/register --reporter spec"
   },
+  
   "files": [
     "build/",
     "src/"
