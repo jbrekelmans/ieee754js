@@ -1,6 +1,6 @@
 {
   "name": "ieee754js",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "Utilities for splitting a IEEE754 binary-64 floating point number (e.g. JavaScript numbers) into its exponent and mantissa",
   "main": "./build/ieee754",
   "typings": "./build/ieee754",
